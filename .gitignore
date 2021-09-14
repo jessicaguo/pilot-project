@@ -1,0 +1,14 @@
+# Suppress file by name
+portal_data_joined.csv
+
+# Suppress file by type
+*.csv
+*.RData
+*.pdf
+*.jpg
+
+# Suppress files by type by folder
+data-cleaned/*.csv
+
+# Suppress all but a particular file
+!data-cleaned/portal_data_joined_final.csv
